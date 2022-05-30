@@ -15,7 +15,7 @@ Fokus ovog rada je na implementaciji jedne takve multiplatformske aplikacije či
 
 ### Opis sadržaja datoteka
 
-DocumentExtractor --> početni testovi i manipulacija sa podacima (istraživanje)
+DocumentExtractor --> Projektna datoteka
 
 Dokumentacija: [priložena dokumentacija diplomskog rada](https://github.com/sbajtl/masters_thesis)
 
