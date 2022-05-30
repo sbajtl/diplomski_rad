@@ -17,7 +17,7 @@ Fokus ovog rada je na implementaciji jedne takve multiplatformske aplikacije či
 
 DocumentExtractor --> Projektna datoteka
 
-Dokumentacija: [priložena dokumentacija diplomskog rada](https://github.com/sbajtl/masters_thesis)
+Dokumentacija: [priložena dokumentacija diplomskog rada]([https://github.com/sbajtl/masters_thesis](https://github.com/sbajtl/masters_thesis/blob/main/SasaBajtl_Multiplatformska_detekcija_strojno_citljive_zone_na_osobnim_dokumentima.pdf))
 
 ---------------------------------------------------------------------------------------
 
