@@ -1,0 +1,44 @@
+﻿<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>Document Extractor</title>
+</head>
+<body>
+<div id="container">
+  <h2 style="text-align: center">MRZ Detection test (WASM)</h2>
+  <label>Select Video Source (Camera)</label>
+  <select id="video-source"></select>
+  <div style="margin-top: 10px">
+    <button type="button" onclick="startCamera()">Start</button>
+    <button type="button" onclick="stopCamera()">Stop</button>
+  </div>
+  <canvas id="canvas" ></canvas>
+</div>
+</body>
+</html>
+
+<script src="../helpers/Camera.js"></script>
+<script src="main.js"></script>
+
+<style>
+
+  html, body {
+    height: 640px;
+    margin-top: -2px;
+    margin-bottom: -2px;
+  }
+
+  #container {
+    width: 640px;
+    height: 480px;
+  }
+
+  #video {
+    display: none;
+  }
+
+  #canvas {
+    width: 640px;
+    height: 480px;
+  }
+</style>

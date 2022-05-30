@@ -1,0 +1,13 @@
+interface MrzZoneStruct {
+  void MrzZoneStruct(long x, long y, long width, long height);
+  attribute long x;
+  attribute long y;
+  attribute long width;
+  attribute long height;
+};
+
+interface Extractor {
+  void Extractor();
+  [Const] MrzZoneStruct detectMrzZone(octet position, long width, long height);
+
+};
