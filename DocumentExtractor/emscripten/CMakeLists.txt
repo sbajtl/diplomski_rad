@@ -1,13 +1,3 @@
-add_definitions(-Wno-potentially-evaluated-expression)
-
-if (CMAKE_BUILD_TYPE MATCHES Release)
-    message("Release mode")
-else (CMAKE_BUILD_TYPE)
-    add_definitions(-DEMCC_DEBUG=1)
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g4")
-    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -g4")
-endif ()
-
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/emscripten)
 set(IDLS ${CMAKE_SOURCE_DIR}/emscripten/interfaces.idl)
 set(STUB emscripten/glue_stub.cc)
